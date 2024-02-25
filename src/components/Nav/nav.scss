@@ -1,0 +1,55 @@
+.scrolled {
+  transition: 0.7s;
+  background-color: #000;
+  color: #fff;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  scroll-behavior: smooth;
+
+  & > .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 23px;
+
+    & > img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  & > .menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+
+    & > a {
+      text-decoration: none;
+      color: #fff;
+      font-family: cursive;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  & > .score {
+    & > span {
+      font-size: 13px;
+    }
+  }
+}
+
+.black-bg {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,18 @@
+.background {
+  z-index: -2;
+  display: flex;
+  flex-direction: row;
+
+  .back {
+    z-index: -2;
+    background-image: url("https://img.freepik.com/premium-photo/investigations-defunct-chemistry-facility-laboratory-chemistry-instruction_410516-4221.jpg");
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
