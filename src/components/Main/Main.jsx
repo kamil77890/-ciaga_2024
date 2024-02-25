@@ -1,6 +1,5 @@
 import React from "react";
 import "./Main.scss";
-import { TRUE } from "sass";
 
 function Main(props) {
   const {
