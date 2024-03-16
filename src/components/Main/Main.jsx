@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./main.scss";
+import "./Main.scss";
 
 function Main(props) {
   const {
