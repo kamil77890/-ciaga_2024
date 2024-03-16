@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "./Historia.scss";
-import Nav from "../Nav/Nav";
-import Footer from "../Footer/Footer";
+import Nav from "../../Nav/Nav";
+import Footer from "../../Footer/Footer";
 
 function Historia(props) {
   const { points } = props;
   const [scrolled, setScrolled] = useState(false);
 
   const handleScroll = () => {
-    if (window.scrollY > 10) {
+    if (window.scrollY > 0) {
       setScrolled(true);
     } else {
       setScrolled(false);
@@ -17,17 +17,23 @@ function Historia(props) {
 
   React.useEffect(() => {
     window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   const scrollToContent = () => {
-    document.querySelector("#ja").scrollIntoView({ behavior: "smooth" });
+    document.querySelector("#text1").scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <div>
-      <Nav points={points} />
-      <div className="background"></div>
-      <section className="content">
+      <div
+        className={`background ${scrolled ? "scrolled" : ""}`}
+        onClick={scrollToContent}
+      ></div>
+      <section className="text1" id="text1">
         <h3>
           <strong>Temat: Oświecenie i Absolutyzm w Polsce (1683-1773)</strong>
         </h3>
@@ -65,7 +71,7 @@ function Historia(props) {
           <br></br>
         </p>
         <h3>
-          <strong className="#ja">Absolutyzm:</strong>
+          <strong>Absolutyzm:</strong>
         </h3>
         <p>
           Charakterystyka: Absolutyzm to system rządów, w którym władza
@@ -93,7 +99,6 @@ function Historia(props) {
           kończyły się niepowodzeniem.
         </p>
       </section>
-      <Footer />
     </div>
   );
 }

@@ -1,33 +1,46 @@
-import { useState } from "react";
-import "./App.css";
+import React, { useState } from "react";
 import Nav from "./components/Nav/Nav";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
-import Historia from "./components/Historia/Historia";
-
+import Historia from "./components/Przedmioty/Historia/Historia";
 import "./App.css";
+import Biologia from "./components/Przedmioty/Biologia/Biologia";
 
 function App() {
   const [points, setPoints] = useState(0);
-  const [isChemiaVisible, setIsChemiaVisible] = useState(false);
-  const [isHistoriaVisible, setIsHistoriaVisible] = useState(false);
+  const [showHistoria, setShowHistoria] = useState(false);
+  const [showBiologia, setShowBiologia] = useState(false);
+
+  const handleShowHistoria = () => {
+    setShowHistoria(true);
+  };
+
+  const handleNavigateToHistoria = () => {
+    setShowHistoria(true);
+  };
+
+  const handleNavigateToBiologia = () => {
+    setShowBiologia(true);
+  };
 
   return (
     <div>
-      {isHistoriaVisible ? (
-        <Historia points={points} />
-      ) : (
-        <div>
-          <Nav points={points} setIsChemiaVisible={setIsChemiaVisible} />
-          <Main
-            points={points}
-            setPoints={setPoints}
-            setIsChemiaVisible={setIsChemiaVisible}
-            setIsHistoriaVisible={setIsHistoriaVisible}
-          />
-          <Footer />
-        </div>
-      )}
+      <>
+        <Nav points={points} />
+        {showBiologia ? (
+          <Biologia />
+        ) : showHistoria ? (
+          <Historia points={points} />
+        ) : (
+          <>
+            <Main
+              handleNavigateToHistoria={handleNavigateToHistoria}
+              handleNavigateToBiologia={handleNavigateToBiologia}
+            />
+            <Footer />
+          </>
+        )}
+      </>
     </div>
   );
 }

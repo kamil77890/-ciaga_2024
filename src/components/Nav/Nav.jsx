@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./nav.scss";
 
 function Nav(props) {
-  const { points, isChemiaVisible, setIsChemiaVisible } = props;
+  const { points } = props;
   const [clicked, setClicked] = useState(false);
   const [blackBackground, setBlackBackground] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -31,7 +31,7 @@ function Nav(props) {
   return (
     <div className={clicked ? "clicked" : ""}>
       <div className={`nav ${scrolled ? "scrolled" : ""}`}>
-        <div className="icon">
+        <div className="icon" id="home">
           <img
             src="https://activenow.io/wp-content/uploads/2022/07/wsparcie-300x300.png"
             alt="png"
@@ -39,7 +39,9 @@ function Nav(props) {
           <strong>Ściągi</strong>
         </div>
         <div className="menu">
-          <a href="http://localhost:5173/">Home</a>
+          <a href="http://localhost:5173/" id="home">
+            Home
+          </a>
           <a href="#przedmioty" onClick={handleClick}>
             Przedmioty
           </a>

@@ -1,17 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Caudex&display=swap");
 .footer-basic {
-  margin-top: 250px;
   background-color: #171717;
   padding: 50px;
   color: #fff;
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 40px;
-  margin-top: 250px;
+  z-index: -1;
 }
 
 .footer-basic ul {
