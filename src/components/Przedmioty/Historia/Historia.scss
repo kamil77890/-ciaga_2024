@@ -17,6 +17,19 @@
   padding: 20px;
 }
 
+<<<<<<< HEAD:src/components/Przedmioty/Historia/Historia.scss
 .scrolled {
   overflow-y: hidden;
+=======
+.background {
+  z-index: -2;
+  background-image: url("../../assets/obraz11.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+>>>>>>> dd09023b2f81fa4703d88e43a60c7061a5127735:src/components/Historia/Historia.scss
 }

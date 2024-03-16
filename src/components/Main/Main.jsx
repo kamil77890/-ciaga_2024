@@ -9,6 +9,8 @@ function Main(props) {
     handleNavigateToBiologia,
   } = props;
 
+  // ja
+
   const handleClickPrzedmioty = () => {
     const randomPoints = Math.floor(Math.random() * 3) + 1;
     setPoints((points) => points + randomPoints);
