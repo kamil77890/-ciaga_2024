@@ -34,178 +34,55 @@ function Biologia(props) {
       ></div>
       <section className="text" id="text">
         <h3>
-          <strong>Układ krążenia i odporność organizmu</strong>
+          <strong>Układ oddechowy</strong>
         </h3>
+        <p>
+          Układ oddechowy człowieka składa się z wielu narządów, w tym z nosa, gardła, krtani, tchawicy, oskrzeli i płuc. Jego główną funkcją jest dostarczanie tlenu do organizmu oraz usuwanie dwutlenku węgla.
+        </p>
+        <h4>Składniki układu oddechowego:</h4>
         <ul>
-          <li>
-            <strong>Składa się z serca, naczyń krwionośnych i krwi.</strong>{" "}
-            Odpowiada za transport tlenu i substancji odżywczych.
-          </li>
-          <li>
-            <strong>Funkcja:</strong> transportowanie tlenu, substancji
-            odżywczych oraz usuwanie produktów przemiany materii.
-          </li>
-          <li>
-            <strong>Serce:</strong> organ z dwoma przedsionkami i dwiema
-            komorami, rytm skurczów i rozkurczów.
-          </li>
-          <img
-            src="https://i.pinimg.com/564x/57/fe/9c/57fe9ca2bd20cd819795250632b904d3.jpg"
-            alt="adwadadwa"
-            className="heart"
-            srcset=""
-          />
+          <li><strong>Nos:</strong> pełni funkcję filtra, ogrzewa i nawilża wdychane powietrze.</li>
+          <li><strong>Gardło:</strong> stanowi połączenie nosa i krtani, bierze udział w procesie połykania i oddychania.</li>
+          <li><strong>Krtani:</strong> zawiera struny głosowe, pełniące rolę w tworzeniu dźwięków mowy.</li>
+          <li><strong>Płuca:</strong> główny organ odpowiedzialny za wymianę gazową, czyli pobieranie tlenu i usuwanie dwutlenku węgla.</li>
         </ul>
 
-        <h2>Odporność Organizmu:</h2>
+        <h4>Proces oddychania:</h4>
+        <p>
+          Proces oddychania składa się z dwóch faz: wdychania (inhalacji) i wydychania (ekspiracji). Podczas wdychania, mięśnie międzyżebrowe oraz przepona kurczą się, powiększając objętość klatki piersiowej, co powoduje ssanie powietrza do płuc. W trakcie wydychania, mięśnie te się rozluźniają, a płuca kurczą się, wypychając powietrze na zewnątrz.
+        </p>
+
+        <h3>
+          <strong>Układ wydalniczy</strong>
+        </h3>
+        <p>
+          Układ wydalniczy pełni istotną rolę w usuwaniu zbędnych produktów przemiany materii oraz regulacji składu chemicznego płynów ustrojowych. Składa się z narządów takich jak nerki, cewki moczowe, moczowody i pęcherz moczowy.
+        </p>
+
+        <h4>Składniki układu wydalniczego:</h4>
         <ul>
-          <li>
-            <strong>Komórki Immunologiczne:</strong> limfocyty, leukocyty,
-            makrofagi. Wspierają obronę organizmu przed patogenami.
-          </li>
-          <li>
-            <strong>Rodzaje Odporności:</strong>
-            <ul>
-              <li>
-                <strong>Wrodzona:</strong> szybka reakcja na patogeny, np.
-                bariery fizyczne, komórki fagocytujące.
-              </li>
-              <li>
-                <strong>Nabyta:</strong> specyficzna, opóźniona reakcja, zależy
-                od wcześniejszego kontaktu z patogenem.
-              </li>
-            </ul>
-          </li>
+          <li><strong>Nerki:</strong> główne narządy wydalnicze, filtrują krew i wytwarzają mocz.</li>
+          <li><strong>Cewki moczowe:</strong> przewody odprowadzające mocz z nerek do pęcherza moczowego.</li>
+          <li><strong>Moczowody:</strong> przewody prowadzące mocz z pęcherza moczowego na zewnątrz organizmu.</li>
+          <li><strong>Pęcherz moczowy:</strong> narząd magazynujący mocz przed jego wydaleniem.</li>
         </ul>
 
-        <h2>Trzy Linie Obrony Organizmu:</h2>
-        <ul>
-          <li>
-            <strong>Bariera Fizyczna:</strong> skóra, błony śluzowe. Chroni
-            organizm przed wtargnięciem patogenów.
-          </li>
-          <li>
-            <strong>Odpowiedź Nieswoista:</strong> fagocytoza, komórki NK.
-            Szybka reakcja na obce substancje bez uprzedniego rozpoznania.
-          </li>
-          <li>
-            <strong>Odpowiedź Swoista:</strong> limfocyty B i T, produkcja
-            przeciwciał. Reakcja na obce substancje po ich rozpoznaniu.
-          </li>
-        </ul>
+        <h4>Proces wydalania:</h4>
+        <p>
+          Proces wydalania, zwany moczopójstwem, polega na wydaleniu mocz z organizmu poprzez cewkę moczową. Mocz powstaje w nerkach w wyniku filtracji krwi, następnie jest magazynowany w pęcherzu moczowym, aż do chwili, gdy organizm jest gotowy do jego wydalenia. Następnie mocz jest wypierany z pęcherza moczowego przez skurcze mięśni pęcherza i wyprowadzany na zewnątrz przez cewkę moczową.
+        </p>
 
-        <h2>Sposoby Nabierania Odporności Swoistej:</h2>
-        <ul>
-          <li>
-            <strong>Czynna:</strong> organizm wytwarza przeciwciała po kontakcie
-            z patogenem.
-          </li>
-          <li>
-            <strong>Bierne:</strong> organizm otrzymuje przeciwciała gotowe z
-            zewnątrz, np. zaszczepienie.
-          </li>
-          <li>
-            <strong>Naturalna:</strong> przez zakażenie.
-          </li>
-          <li>
-            <strong>Sztuczna:</strong> przez szczepionki.
-          </li>
-          <li>
-            <strong>Choroby Autoimmunologiczne:</strong> organizm atakuje własne
-            komórki.
-          </li>
-        </ul>
+        <h3>
+          <strong>Znaczenie układu oddechowego i wydalniczego dla organizmu</strong>
+        </h3>
+        <p>
+          Układy oddechowy i wydalniczy są niezwykle istotne dla prawidłowego funkcjonowania organizmu. Bez odpowiedniego dostarczenia tlenu do tkanek i narządów oraz usuwania produktów przemiany materii, organizm nie byłby w stanie przetrwać. Układ oddechowy zapewnia niezbędny tlen, który jest niezbędny do procesu oddychania komórkowego, czyli produkcji energii wewnątrz komórek. Natomiast układ wydalniczy usuwa szkodliwe substancje, takie jak mocznik czy kreatynina, które mogą być toksyczne dla organizmu, jeśli nie zostaną usunięte.
+        </p>
 
-        <h2>Konflikt Serologiczny:</h2>
-        <ul>
-          <li>
-            <strong>
-              Wynikający z niespójności antygenowej między matką a płodem.
-            </strong>{" "}
-            Może prowadzić do powikłań w ciąży.
-          </li>
-        </ul>
+        <p>
+          Zatem prawidłowe funkcjonowanie układów oddechowego i wydalniczego jest kluczowe dla utrzymania homeostazy organizmu, czyli równowagi wewnętrznej, która jest niezbędna do jego prawidłowego funkcjonowania. Dlatego też konieczne jest dbanie o te układy poprzez zdrowy styl życia, regularną aktywność fizyczną oraz odpowiednie nawodnienie organizmu.
+        </p>
 
-        <h2>Układ Zgodności Tkankowej:</h2>
-        <ul>
-          <li>
-            <strong>
-              System oznaczania zgodności tkankowej, istotny przy przeszczepach.
-            </strong>{" "}
-            Pomaga uniknąć odrzucenia przeszczepionego narządu.
-          </li>
-        </ul>
-
-        <h2>Transplantacja:</h2>
-        <ul>
-          <li>
-            <strong>
-              Przeniesienie narządu lub tkaniny z jednego organizmu do drugiego.
-            </strong>{" "}
-            Pomocna w leczeniu ciężkich schorzeń.
-          </li>
-        </ul>
-
-        <h2>Immunosupresja:</h2>
-        <ul>
-          <li>
-            <strong>
-              Zastosowanie leków w celu osłabienia reakcji odpornościowej
-              organizmu.
-            </strong>{" "}
-            Konieczna po przeszczepach, aby uniknąć odrzucenia.
-          </li>
-        </ul>
-
-        <h2>Alergia:</h2>
-        <ul>
-          <li>
-            <strong>
-              Nadwrażliwość na substancje obce, np. pyłki, sierść zwierząt.
-            </strong>{" "}
-            Może prowadzić do reakcji alergicznych.
-          </li>
-        </ul>
-
-        <h2>Budowa Serca:</h2>
-        <ul>
-          <li>
-            <strong>
-              Składa się z czterech jam: dwóch przedsionków i dwóch komór.
-            </strong>{" "}
-            Zapewnia ciągłość cyrkulacji krwi.
-          </li>
-        </ul>
-
-        <h2>Płucny Obieg Krwi i Ustrojowy Obieg Krwi:</h2>
-        <ul>
-          <li>
-            <strong>Płucny obieg:</strong> transportuje krew do i z płuc, gdzie
-            następuje wymiana gazowa.
-          </li>
-          <li>
-            <strong>Ustrojowy obieg:</strong> dostarcza krew do wszystkich
-            tkanek i narządów ciała.
-          </li>
-        </ul>
-
-        <h2>Najważniejsze Narządy Układu Limfatycznego:</h2>
-        <ul>
-          <li>
-            <strong>Węzły chłonne, śledziona, grasicza.</strong> Wspierają
-            funkcje odpornościowe organizmu.
-          </li>
-        </ul>
-
-        <h2>Metody Diagnostyczne Układu Krążenia:</h2>
-        <ul>
-          <li>
-            <strong>
-              EKG, Echo serca, badanie stężenia lipidów, pomiar ciśnienia krwi.
-            </strong>{" "}
-            Pomocne w diagnozowaniu chorób serca i naczyń krwionośnych.
-          </li>
-        </ul>
       </section>
       <Footer />
     </div>
