@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./nav.scss";
 
-function Nav(props) {
-  const { points } = props;
+function Nav() {
   const [clicked, setClicked] = useState(false);
   const [blackBackground, setBlackBackground] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -46,9 +45,6 @@ function Nav(props) {
             Przedmioty
           </a>
           <a href="#about">About</a>
-        </div>
-        <div className="score">
-          <span>Your points: {points}</span>
         </div>
       </div>
     </div>

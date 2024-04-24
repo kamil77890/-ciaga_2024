@@ -3,17 +3,10 @@ import "./Main.scss";
 
 function Main(props) {
   const {
-    points,
-    setPoints,
     handleNavigateToHistoria,
     handleNavigateToBiologia,
+    handleNavigateToChemia,
   } = props;
-
-  const handleClickPrzedmioty = () => {
-    const randomPoints = Math.floor(Math.random() * 3) + 1;
-    setPoints((points) => points + randomPoints);
-  };
-  const black = "#000000";
 
   return (
     <div className="Main">
@@ -29,14 +22,11 @@ function Main(props) {
         </div>
 
         <div className="someContent">
-          <div
-            className="boxes"
-            onClick={handleClickPrzedmioty}
-            id="przedmioty"
-          >
+          <div className="boxes" id="przedmioty">
             <div className="button-container-2">
               <span className="mas">Biologia</span>
               <button
+                className="button-2"
                 type="button"
                 name="Hover"
                 onClick={handleNavigateToBiologia}
@@ -47,11 +37,23 @@ function Main(props) {
             <div className="button-container-2">
               <span className="mas">Historia</span>
               <button
+                className="button-2"
                 type="button"
                 name="Hover"
                 onClick={handleNavigateToHistoria}
               >
                 Historia
+              </button>
+            </div>
+            <div className="button-container-2">
+              <span className="mas">Chemia</span>
+              <button
+                className="button-2"
+                type="button"
+                name="Hover"
+                onClick={handleNavigateToChemia}
+              >
+                Chemia
               </button>
             </div>
           </div>

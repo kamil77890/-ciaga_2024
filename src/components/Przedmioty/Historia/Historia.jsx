@@ -3,8 +3,7 @@ import "./Historia.scss";
 import Nav from "../../Nav/Nav";
 import Footer from "../../Footer/Footer";
 
-function Historia(props) {
-  const { points } = props;
+function Historia() {
   const [scrolled, setScrolled] = useState(false);
 
   const handleScroll = () => {

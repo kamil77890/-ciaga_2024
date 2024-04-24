@@ -5,15 +5,12 @@ import Footer from "./components/Footer/Footer";
 import Historia from "./components/Przedmioty/Historia/Historia";
 import "./App.css";
 import Biologia from "./components/Przedmioty/Biologia/Biologia";
+import Chemia from "./components/Przedmioty/Chemia";
 
 function App() {
-  const [points, setPoints] = useState(0);
   const [showHistoria, setShowHistoria] = useState(false);
   const [showBiologia, setShowBiologia] = useState(false);
-
-  const handleShowHistoria = () => {
-    setShowHistoria(true);
-  };
+  const [showChemia, setShowChemia] = useState(false);
 
   const handleNavigateToHistoria = () => {
     setShowHistoria(true);
@@ -22,20 +19,26 @@ function App() {
   const handleNavigateToBiologia = () => {
     setShowBiologia(true);
   };
+  const handleNavigateToChemia = () => {
+    setShowChemia(true);
+  };
 
   return (
     <div>
       <>
-        <Nav points={points} />
+        <Nav />
         {showBiologia ? (
           <Biologia />
         ) : showHistoria ? (
-          <Historia points={points} />
+          <Historia />
+        ) : showChemia ? (
+          <Chemia />
         ) : (
           <>
             <Main
               handleNavigateToHistoria={handleNavigateToHistoria}
               handleNavigateToBiologia={handleNavigateToBiologia}
+              handleNavigateToChemia={handleNavigateToChemia}
             />
             <Footer />
           </>
