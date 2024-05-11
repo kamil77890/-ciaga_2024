@@ -31,71 +31,120 @@ function Historia() {
       <div
         className={`background ${scrolled ? "scrolled" : ""}`}
         onClick={scrollToContent}
-      ></div>
+      >
+        <img
+          src="https://static.zpe.gov.pl/portal/f/res-minimized/RsiZaxpTzKBu9/6/1J5e8kCVdAxv7ajuCof7zL4dLogf1PVJ.jpg"
+          alt="image"
+        />
+      </div>
+      <div className="margin"></div>
       <section className="text1" id="text1">
         <h3>
-          <strong>Temat: Oświecenie i Absolutyzm w Polsce (1683-1773)</strong>
+          <strong>
+            Temat: Polska w latach 1772-1795 oraz Epoka Napoleońska
+          </strong>
         </h3>
         <p>
-          Oświecenie oraz panujący w Europie Absolutyzm między XVII a XVIII
-          <br></br>
-          wiekiem wywarły znaczący wpływ na politykę, kulturę i społeczeństwo
-          <br></br>
-          Polski. Okres ten, trwający od roku 1683 do 1773, był czasem ważnych
-          <br></br>
-          przemian w historii polskiego państwa.
+          Polska w latach 1772-1795 oraz Epoka Napoleońska to okresy o dużym
+          znaczeniu dla historii kraju, które wywarły istotny wpływ na jego
+          rozwój polityczny, społeczny i kulturowy. Rozpoczynając od rozbiorów
+          Polski w 1772 roku, kiedy to trzy zaborcze mocarstwa: Rosja, Prusy i
+          Austria, dokonały podziału ziem Rzeczypospolitej, Polska znalazła się
+          pod jarzmem obcych rządów.
+        </p>
+        <p>
+          Rozejście się Polski w różnych kierunkach między trzema mocarstwami
+          spowodowało destabilizację kraju, zatarcie granic narodowych oraz
+          ograniczenie autonomii polskiego społeczeństwa. Zaborcy narzucili
+          swoje prawa i obyczaje, co spowodowało konflikty wewnętrzne i
+          pogorszenie sytuacji ekonomicznej Polski.
+        </p>
+        <p>
+          Epoka Napoleońska była kolejnym ważnym okresem w historii Polski,
+          charakteryzującym się nadzieją na odzyskanie niepodległości. Napoleon
+          Bonaparte, wykorzystując polskie nastroje niepodległościowe, próbował
+          zjednać sobie Polaków. W wyniku kampanii napoleońskich na ziemiach
+          polskich powstało Księstwo Warszawskie, które miało być marionetkowym
+          państwem zależnym od Francji, jednakże stanowiło również pierwszy krok
+          w kierunku odbudowy niepodległej Polski.
+        </p>
+        <p>
+          Księstwo Warszawskie, powstałe w 1807 roku, obejmowało znaczną część
+          ziem zaboru pruskiego oraz austriackiego. Było to państwo
+          zorganizowane według wzorów francuskich, wprowadzające reformy
+          administracyjne, prawne i gospodarcze, które miały na celu
+          modernizację kraju.
+        </p>
+        <p>
+          Jednakże, pomimo nadziei na odzyskanie niepodległości, Księstwo
+          Warszawskie pozostawało zależne od Francji i pozostawało w cieniu
+          narastającej potęgi Napoleona. Klęska Napoleona w bitwie pod Lipskiem
+          w 1813 roku przyniosła upadek Księstwa Warszawskiego, a Polska
+          ponownie znalazła się pod zaborami.
+        </p>
+        <p>
+          Okres rozbiorów i Epoka Napoleońska miały długotrwałe konsekwencje dla
+          Polski. Zniesienie niepodległości i utrata suwerenności skłoniły wielu
+          Polaków do walki o wolność i niepodległość, co doprowadziło do
+          kolejnych powstań narodowych w XIX wieku.
+        </p>
+        <p>
+          Mimo trudności i utraty niepodległości, okres rozbiorów i Epoka
+          Napoleońska pozostają istotnymi etapami w historii Polski, które
+          kształtowały świadomość narodową i determinację Polaków do walki o
+          wolność i niepodległość.
         </p>
         <h3>
-          <strong>Oświecenie:</strong>
+          <strong>
+            Temat: Polska w latach 1772-1795 oraz Epoka Napoleońska
+          </strong>
         </h3>
         <p>
-          Kontekst międzynarodowy: Oświecenie to epoka, która nacechowana
-          <br></br>
-          była postępem intelektualnym i naukowym. Idee oświeceniowe
-          <br></br>
-          promowały rozum, naukę oraz racjonalizm. Rola oświeconych<br></br>
-          monarchów: W Europie, wielu monarchów, tacy jak Fryderyk II Pruski
-          <br></br>
-          czy Józef II Habsburg, wprowadzali reformy zgodne z ideami
-          <br></br>
-          oświecenia, które obejmowały modernizację administracji, edukacji
-          <br></br>
-          oraz prawa. Wpływ na Polskę: Idee oświecenia dotarły także do
-          <br></br>
-          Polski, wpływając na myśl polityczną i społeczną. Jednakże, ze
-          <br></br>
-          względu na silną pozycję szlachty i konfederacje szlacheckie,
-          <br></br>
-          reformy oświeceniowych monarchów miały ograniczony zasięg.
-          <br></br>
+          Polska w latach 1772-1795 oraz Epoka Napoleońska to okresy o dużym
+          znaczeniu dla historii kraju, które wywarły istotny wpływ na jego
+          rozwój polityczny, społeczny i kulturowy. Rozpoczynając od rozbiorów
+          Polski w 1772 roku, kiedy to trzy zaborcze mocarstwa: Rosja, Prusy i
+          Austria, dokonały podziału ziem Rzeczypospolitej, Polska znalazła się
+          pod jarzmem obcych rządów.
         </p>
         <h3>
-          <strong>Absolutyzm:</strong>
+          <strong>Epoka Napoleońska:</strong>
         </h3>
         <p>
-          Charakterystyka: Absolutyzm to system rządów, w którym władza
-          <br></br>
-          monarchów jest nieograniczona, a ich decyzje niepodważalne. Monarcha
-          <br></br>
-          uznawany był za przedstawiciela Boga na ziemi i miał pełną kontrolę
-          <br></br>
-          nad państwem. Absolutyzm w Europie: W XVII i XVIII wieku, absolutyzm
-          <br></br>
-          był powszechnym modelem rządów w Europie. Monarchowie tacy jak
-          <br></br>
-          Ludwik XIV we Francji czy Piotr I w Rosji wprowadzali silną kontrolę
-          <br></br>
-          nad swoimi krajami. Absolutyzm w Polsce: Pomimo silnego stanowiska
-          <br></br>
-          króla, polska monarchia była ograniczona przez silną pozycję
-          <br></br>
-          szlachty, która dysponowała znaczącą władzą i prawami. Mimo to,
-          <br></br>
-          próby wzmocnienia władzy królewskiej, jak te podejmowane przez
-          <br></br>
-          Stanisława Augusta Poniatowskiego, spotykały się z oporem szlachty i
-          <br></br>
-          kończyły się niepowodzeniem.
+          Epoka Napoleońska była jednym z najważniejszych okresów w historii
+          Europy, a także Polski. Napoleon Bonaparte, uznawany za jednego z
+          najwybitniejszych wodzów w dziejach, odegrał kluczową rolę w
+          kształtowaniu nowoczesnej Europy poprzez swoje podboje i reformy. Jego
+          kampanie wojskowe przyniosły zmiany polityczne, społeczne i
+          gospodarcze na wielką skalę.
+        </p>
+        <p>
+          Napoleonowi udało się zjednać sobie szerokie poparcie w Polsce, która
+          liczyła na odzyskanie niepodległości. Po wybuchu wojen napoleońskich,
+          na ziemiach polskich pojawiła się nadzieja na odbudowę niepodległego
+          państwa polskiego. W 1807 roku, po kilku latach walk i negocjacji,
+          powstało Księstwo Warszawskie, które było marionetkowym państwem
+          zależnym od Francji, ale stanowiło istotny krok w kierunku odbudowy
+          niepodległej Polski.
+        </p>
+        <p>
+          Napoleon przeprowadził wiele reform na terenach przez niego
+          kontrolowanych, w tym modernizację administracji, wprowadzenie kodeksu
+          cywilnego oraz reformy gospodarcze. Jego rządy miały istotny wpływ na
+          kształtowanie nowoczesnego państwa i społeczeństwa.
+        </p>
+        <p>
+          Jednakże, rosnąca potęga Napoleona wywołała opór wśród innych
+          europejskich mocarstw, co doprowadziło do konfliktów zbrojnych i
+          ostatecznie do klęski Napoleona w bitwie pod Lipskiem w 1813 roku. Po
+          tej klęsce, Polska ponownie znalazła się pod zaborami, a Księstwo
+          Warszawskie przestało istnieć.
+        </p>
+        <p>
+          Pomimo upadku Księstwa Warszawskiego, wpływ epoki napoleońskiej na
+          Polskę był trwały. Wprowadzone reformy, wzrost świadomości narodowej i
+          dążenie do niepodległości miały długotrwałe konsekwencje dla polskiego
+          społeczeństwa.
         </p>
       </section>
     </div>
